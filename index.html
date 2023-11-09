@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prace s Bootstrapem</title>
+</head>
+<body>
+
+
+     <a href="stranka2.html">Dalsi stranka</a>
+
+    <!-- Akordion  -->
+    <div class="akordion" id="akordion">
+        <div class="akordion-item">
+          <h2 class="akordion-header">
+            <button class="akordion-button" type="button" data-bs-toggle="kolapsoid" data-bs-target="#kolapsoidOne" aria-expanded="true" aria-controls="kolapsoidOne">
+              akordion Item #1
+            </button>
+          </h2>
+          <div id="kolapsoidOne" class="akordion-kolapsoid kolapsoid show" data-bs-parent="#akordion">
+            <div class="akordion-body">
+                <p>kasdjhfkjsdkcnxlkdfhaiudhf;iv </p>
+            </div>
+          </div>
+        </div>
+        <div class="akordion-item">
+          <h2 class="akordion-header">
+            <button class="akordion-button kolapsoidd" type="button" data-bs-toggle="kolapsoid" data-bs-target="#kolapsoidTwo" aria-expanded="false" aria-controls="kolapsoidTwo">
+              akordion Item #2
+            </button>
+          </h2>
+          <div id="kolapsoidTwo" class="akordion-kolapsoid kolapsoid" data-bs-parent="#akordion">
+            <div class="akordion-body">
+                <p> askjdfhaiwuehfkasjdbcb </p>
+            </div>
+          </div>
+        </div>
+        <div class="akordion-item">
+          <h2 class="akordion-header">
+            <button class="akordion-button kolapsoidd" type="button" data-bs-toggle="kolapsoid" data-bs-target="#kolapsoidThree" aria-expanded="false" aria-controls="kolapsoidThree">
+              akordion Item #3
+            </button>
+          </h2>
+          <div id="kolapsoidThree" class="akordion-kolapsoid kolapsoid" data-bs-parent="#akordion">
+            <div class="akordion-body">
+                <p> asdfalskdjfalsjgowitlwertkjlkj </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- list -->
+      <ul>
+        <li> Myval </li>
+        <li> Myval 2 </li>
+        <li> Myval 3</li>
+      </ul>
+
+
+     <!-- modal a cudlik -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">
+        cudlik
+      </button>
+      <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Myval titul</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Myvali titul lmao.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Vypadni</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+     <!-- kolotoc  -->
+      <div id="kolotoc" class="kolotoc snimek">
+        <div class="kolotoc-inner">
+          <div class="kolotoc-item active">
+            <img src="myval s testem.jpg" class="d-block w-100" alt="image not found">
+          </div>
+          <div class="kolotoc-item">
+            <img src="myval.jpg" class="d-block w-100" alt="the picture is not available.">
+          </div>
+        </div>
+        <button class="kolotoc-control-prev" type="button" data-bs-target="#kolotoc" data-bs-snimek="prev">
+          <span class="kolotoc-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="kolotoc-control-next" type="button" data-bs-target="#kolotoc" data-bs-snimek="next">
+          <span class="kolotoc-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Myval</th>
+            <th scope="col">Myval</th>
+            <th scope="col">Myval</th>
+            <th scope="col">Fakt myval</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td>Myvali </td>
+            <td>Myvali</td>
+            <td>@Myvali</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+</body>
+</html>

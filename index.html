@@ -23,44 +23,60 @@
      <a href="stranka2.html">Dalsi stranka</a>
 
     <!-- Akordion  -->
-    <div class="akordion" id="akordion">
-        <div class="akordion-item">
-          <h2 class="akordion-header">
-            <button class="akordion-button" type="button" data-bs-toggle="kolapsoid" data-bs-target="#kolapsoidOne" aria-expanded="true" aria-controls="kolapsoidOne">
-              Myval
+   
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             Zajimoavosti
             </button>
           </h2>
-          <div id="kolapsoidOne" class="akordion-kolapsoid kolapsoid show" data-bs-parent="#akordion">
-            <div class="akordion-body">
-                <p> nejaky zajimavosti </p>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Proc poridit prave myvala</strong> <p>Jelikoz je pohodlny a mazlivy</p>
+               <code>.accordion-body</code>
             </div>
           </div>
         </div>
-        <div class="akordion-item">
-          <h2 class="akordion-header">
-            <button class="akordion-button kolapsoidd" type="button" data-bs-toggle="kolapsoid" data-bs-target="#kolapsoidTwo" aria-expanded="false" aria-controls="kolapsoidTwo">
-              vyska
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Vyska
             </button>
           </h2>
-          <div id="kolapsoidTwo" class="akordion-kolapsoid kolapsoid" data-bs-parent="#akordion">
-            <div class="akordion-body">
-                <p> 100-120cm </p>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong> Priblizne </strong><p>dosahuje vzrustu ditete</p>
             </div>
           </div>
         </div>
-        <div class="akordion-item">
-          <h2 class="akordion-header">
-            <button class="akordion-button kolapsoidd" type="button" data-bs-toggle="kolapsoid" data-bs-target="#kolapsoidThree" aria-expanded="false" aria-controls="kolapsoidThree">
-              cena
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Cena
             </button>
           </h2>
-          <div id="kolapsoidThree" class="akordion-kolapsoid kolapsoid" data-bs-parent="#akordion">
-            <div class="akordion-body">
-                <p> 35k v cz </p>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Cca </strong> <p>45k v czk</p>
             </div>
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- list -->
       <ul>
@@ -118,7 +134,7 @@
       </div>
 
 
-      <!-- jedina funkcni vec, tabulka-->
+      <!-- tabulka-->
       <table class="table">
         <thead>
           <tr>

@@ -10,23 +10,24 @@
 
 </head>
 <body>
-  
-
-  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="end" data-bs-title="Fakt tooltip">
-    Proc poridit myvala
-  </button>
 
   <script>
    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 </script>
-<p class="muted"><a href="#" data-bs-toggle="tooltip" data-bs-title="Default tooltip"></a> <a href="#" data-bs-toggle="tooltip" data-bs-title="Another tooltip">real text</a>. And all that just to give you an idea of how tooltips would look when used in real-world situations. So hopefully you've now seen how <a href="#" data-bs-toggle="tooltip" data-bs-title="Another one here too"></a> can work in practice, once you use them on <a href="#" data-bs-toggle="tooltip" data-bs-title="The last tip!">Nejaky</a> text proc koupit u nas</p>
-<button type="button" class="btn btn-secondary"
-        data-bs-toggle="tooltip" data-bs-placement="top"
-        data-bs-custom-class="custom-tooltip"
-        data-bs-title="Proc koupt prave u nas">
- Jelikoz jsme jediny legalne zrizeny obchod pro invazivni zvirata
-</button>
+
+
+<!-- HTML to write -->
+<a href="#" data-bs-toggle="tooltip" data-bs-title="Proc kouput prave u nas">Proc koupit prave u nas jeden musi fungovat</a>
+
+<!-- Generated markup by the plugin -->
+<div class="tooltip bs-tooltip-auto" role="tooltip">
+  <div class="tooltip-arrow"></div>
+  <div class="tooltip-inner">
+    Protoze jsme jediny legalni obchod pro invazivni zvirata
+  </div>
+</div>
+
 
 <div class="row">
   <div class="col-4">
@@ -63,7 +64,9 @@
       </div>
       <div id="item-2">
         <h4>Vzhled</h4>
-        <p>hlava, telo, ocas</p>
+        <p>Maskovaci zbarveni na hlave pripomina lupicovu masku, kdyz se ve filmu vkrada do prostor coziho domu,<br>
+           podobny je i ocas, ktery je stridave cerny s sedymi zbarvenim, a ani telo se nevymyka barevny palete, je totiz sede,<br>
+          takze samotny myval se muze zdat ze je z cernobilyho filmu i kdyz tomu tak neni.</p>
       </div>
       <div id="item-3">
         <h4>Myvali strava</h4>
